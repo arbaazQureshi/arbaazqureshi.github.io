@@ -1,6 +1,6 @@
 # Minimal Theme
 
-[Demo the Theme](http://orderedlist.github.com/minimal/)
+My website: [arbaazqureshi.github.io](https://arbaazqureshi.github.io)
 
 This is the raw HTML and styles that are used for the *minimal* theme on [GitHub Pages](http://pages.github.com/).
 
