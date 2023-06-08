@@ -1,6 +1,6 @@
 # Minimal Theme
 
-My website: [arbaazqureshi.github.io](https://arbaazqureshi.github.io)
+My website: [arbaazqureshi.me](https://arbaazqureshi.me)
 
 This is the raw HTML and styles that are used for the *minimal* theme on [GitHub Pages](http://pages.github.com/).
 
