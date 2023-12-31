@@ -75,8 +75,14 @@
                   </div>
               </div>
               <div class="details">
-              <p><li> Working with LLMs towards realizing a conversational product recommender chatbot to improve the online shopping experience on Lowe's online shopping website.</li>
-                <li> Also building and advancing Lowe's query auto-complete system.</li></p>
+              <p><li> Built a multi-modal chatbot for product discovery/purchase/comparison and home improvement question answering for the
+shopping website. Currently building an evaluation system for the chatbot.</li>
+                <li> Worked with different LLMs (different GPT models, Gemini, LLaMA etc), and with different paradigms of in-context learning (few shot learning, chain-of-thought reasoning, retrieval augmented generation for home improvement project question answering) to realize an efficient chatbot.</li>
+                <li>Built a query auto-complete system that suggests auto-completions based on semantic similarity with the user session's previous queries. This system is deployed on Lowe's website.</li>
+                <li>The developed framework shows improved recall and a reduced average number of characters typed for the ground truth to appear in the auto-complete suggestions. A/B test reveals a 1% increase in product conversion rate and about 2% increase in user engagement with the auto-complete suggestions.</li>
+                <li>Currently working on capturing product associations (example, hammer → nails) based on historical query logs. Trying out
+embedding based and association rule mining based approaches.</li>
+              </p>
 
             </div>
 
@@ -91,7 +97,9 @@
                   </div>
               </div>
               <div class="details">
-              <p><li> Worked on neural network interpretability, towards understanding which concepts activate different neurons in BERT.</li>
+              <p><li> Devised a method to obtain text descriptions per neuron, of concepts that activate those neurons in a BERT model. Our method alleviates the requirement of Human in the loop, to generate the text descriptions.</li>
+                <li>Created a dataset of 72K Amazon reviews and their annotated concepts, using various open-source LLMs like Flan-T5 XL and Pythia 12B. Analyzed which annotated concepts trigger neurons in the BERT language model using this dataset.</li>
+                <li>Work published in AAAI-24 (to be released on February 20. 2024).</li>
               </p>
 
             </div> 
@@ -273,6 +281,12 @@
 
 
             <p class="header pt-5">Publications</p>
+
+            <p class="paper my-2 pl-3">
+              <span class="papertitle">Towards generating informative textual description for neurons in language models</span><br>
+              Shrayani Mondal*, Rishabh Garodia*, <strong>Arbaaz Qureshi*</strong>, Taesung Lee, Youngja Park<br>
+              <i> Association for the Advancement of Artificial Intelligence, 2024. To be released on Feb 20, 2024. (<a class ="tag" target="_blank" href="https://aaai.org/">AAAI, 2024</a>)</i><br>
+            </p>
 
             <p class="paper my-2 pl-3">
               <span class="papertitle">Gender-aware Estimation of Depression Severity Level in a Multimodal Setting</span><br>
